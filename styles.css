@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Monofonto', sans-serif;
+  color: #000;
+  background: url('Background.jpg') center/cover no-repeat;
+}
+
+.main {
+  background-color: #FF00FF;
+  border: 5px solid #000000;
+  border-radius: 50px;
+}
