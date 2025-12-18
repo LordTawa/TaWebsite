@@ -12,11 +12,12 @@ html, body {
 }
 
 .main {
-  width: 90vw;
-  height: 100vw;
+  margin-left: 1%;
+  width: 98vw;
+  height: 48vw;
   z-index: 1000000000000;
   background-color: #FF00FF;
   border: 5px solid #000000;
-  border-radius: 50px;
+  border-radius: 500px;
   text-align: center;
 }
