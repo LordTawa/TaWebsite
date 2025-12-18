@@ -12,6 +12,8 @@ html, body {
 }
 
 .main {
+  width: 90%;
+  height: 100%;
   background-color: #FF00FF;
   border: 5px solid #000000;
   border-radius: 50px;
