@@ -21,6 +21,23 @@ body {
 a:hover {
   cursor: url("cursor2.png"), pointer;
 }
+
+@media (max-width: 800px) {
+  .tawartgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
+
+.tawartgallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
 .card {
   display: grid;
   grid-template-areas:
