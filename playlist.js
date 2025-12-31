@@ -3,9 +3,9 @@ const currentSongDisplay = document.getElementById('currentSong');
 
 // The playlist array
 const playlist = [
-    { title: "Song One", src: "path/to/song1.mp3" },
-    { title: "Song Two", src: "path/to/song2.mp3" },
-    { title: "Song Three", src: "path/to/song3.mp3" }
+    { title: "Song One", src: "TWS1.mp3" },
+    { title: "Song Two", src: "TWS2.mp3" },
+    { title: "Song Three", src: "TWS3.mp3" }
 ];
 
 let currentTrackIndex = 0;
