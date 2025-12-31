@@ -22,20 +22,9 @@ a:hover {
   cursor: url("cursor2.png"), pointer;
 }
 
-.stretchy-div {
-  margin-left: 1%;
-  width: 98vw;
-  height: 100vh;
-  z-index: 1000000000000;
-  background-color: #FF00FF;
-  border: 5px solid #000000;
-  border-radius: 500px;
-  text-align: center;
-}
-
 .art-div {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   z-index: 1000000000000;
   background-color: #fff6d8;
   text-align: center;
