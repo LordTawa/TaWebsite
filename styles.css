@@ -16,6 +16,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     height: 100%;
+    cursor: url("cursor.png"), auto;
 }
 
 .stretchy-div {
