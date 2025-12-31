@@ -2,9 +2,9 @@ const audioPlayer = document.getElementById('audioPlayer');
 const currentSongDisplay = document.getElementById('currentSong');
 
 const playlist = [
-    { title: "TaWebSong One", src: "TWS1.mp3" },
-    { title: "TaWebSong Two", src: "TWS2.mp3" },
-    { title: "TaWebSong Three", src: "TWS3.mp3" }
+    { title: "TaWebSong", src: "TWS1.mp3" },
+    { title: "TaWebSong (Sped Up)", src: "TWS2.mp3" },
+    { title: "TaWebSong (Sped up) (Slowed)", src: "TWS3.mp3" }
 ];
 
 let currentTrackIndex = 0;
