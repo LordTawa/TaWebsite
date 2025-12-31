@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.circle1 {
+  width: 15vw;
+  height: 13vh;
+  background-color: purple;
+  border-radius: 50px;
+  margin-top: -60vh;
+  margin-left: 15vh;
+}
+
 html, body {
   height: 100%;
   font-family: 'Monofonto', sans-serif;
