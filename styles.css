@@ -14,12 +14,14 @@ html, body {
 body {
     margin: 0;
     overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
 }
 
 .stretchy-div {
   margin-left: 1%;
   width: 98vw;
-  height: 48vw;
+  height: 100vh;
   z-index: 1000000000000;
   background-color: #FF00FF;
   border: 5px solid #000000;
