@@ -34,6 +34,14 @@ a:hover {
   text-align: center;
 }
 
+.art-div {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000000000000;
+  background-color: #fff6d8;
+  text-align: center;
+}
+
 @keyframes stretch {
     0% {
         transform: scaleX(0.5);
