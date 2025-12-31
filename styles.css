@@ -11,7 +11,12 @@ html, body {
   background: url('Background.jpg') center/cover no-repeat;
 }
 
-.main {
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.stretchy-div {
   margin-left: 1%;
   width: 98vw;
   height: 48vw;
@@ -20,4 +25,13 @@ html, body {
   border: 5px solid #000000;
   border-radius: 500px;
   text-align: center;
+}
+
+@keyframes stretch {
+    0% {
+        transform: scaleX(0.5);
+    }
+    100% {
+        transform: scaleX(1);
+    }
 }
