@@ -16,6 +16,28 @@
   </p>
 </head>
 <body>
-  <script src="main.js"></script>
+  <div class="art-div">
+    <svg viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="circlePath" d="M 10, 50 a 40,40 0 1,1 80,0 40,40 0 1,1 -80,0" fill="none"></path>
+      </defs>
+      <text font-size="10">
+       <textPath href="#circlePath" startOffset="25%" text-anchor="middle">TawArt</textPath>
+      </text>
+    </svg>
+    <br>
+    <img src="main.png">
+    <audio id="audioPlayer" src="" style="display:none;"></audio>
+    
+    <button onclick="playMusic()">Play...?</button>    
+    <p id="currentSong">Current song: None</p>
+    <script src="playlist.js"></script>
+
+    
+    <ul>
+      <li><a href="index.html">TaWebsite</a></li>
+    </ul>
+  </div>
+  <script src="main.js"></script> 
 </body>
 </html>
