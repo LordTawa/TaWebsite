@@ -39,17 +39,20 @@ a:hover {
 
 
 .card {
+  display: inline-block;
   display: grid;
   grid-template-areas:
     "image"
     "text";
   grid-template-columns: 1fr 3fr;
   gap: 3px;
+  margin: 0rem auto;
   background-color: white;
   padding: 30px;
   margin-left: 4vw;
   width: 25vw;
   height: auto;
+  margin: 2vw;
 }
 
 .card div {
