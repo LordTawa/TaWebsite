@@ -31,8 +31,8 @@ a:hover {
   background-color: white;
   padding: 30px;
   margin-left: 4vw;
-  width: 20vw;
-  height: 70%;
+  width: 25vw;
+  height: auto;
 }
 
 .card div {
