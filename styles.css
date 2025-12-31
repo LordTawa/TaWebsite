@@ -19,6 +19,10 @@ body {
     cursor: url("cursor.png"), auto;
 }
 
+a:hover {
+  cursor: url("cursor2.png"), pointer;
+}
+
 .stretchy-div {
   margin-left: 1%;
   width: 98vw;
