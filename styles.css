@@ -7,8 +7,10 @@
 body {
   background: url('Background.jpg');
   background-size: cover; 
-  background-position: center;
+  background-position: fixed;
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
 }
 
 html, body {
