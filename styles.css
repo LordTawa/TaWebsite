@@ -18,3 +18,9 @@ html, body {
   font-family: 'Space Age', sans-serif;
   color: black;
 }
+
+.main {
+  background-color: #602505;
+  width: 80%;
+  height: 100%;
+}
