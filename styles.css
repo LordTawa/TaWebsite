@@ -15,7 +15,7 @@ body {
   background-position: fixed;
   overflow-x: hidden;
   height: 100%;
-  animation: moveBackground 4s linear infinite, stretchBackground 5s infinite alternate;
+  animation: moveBackground 30s linear infinite, stretchBackground 5s infinite alternate;
 }
 
 @keyframes moveBackground {
