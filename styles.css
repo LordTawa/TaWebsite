@@ -34,9 +34,9 @@ html, body {
 
 .nav {
   background: url("Images/TaWebsiteNav.png");
-  width: 80%;
+  width: 100%;
   z-index: 500;
-  height: 16%;
+  height: 27%;
   top: 0;
   position: fixed;
   top: 0;
