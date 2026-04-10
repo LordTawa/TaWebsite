@@ -19,6 +19,17 @@ html, body {
   color: black;
 }
 
+.nav {
+  background-color: #600505;
+  width: 80%;
+  z-index: 500;
+  height: 16%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
 .main {
   background: url('Images/Background2.jpg');
   width: 80%;
@@ -32,6 +43,5 @@ html, body {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  padding: 40px;
   position: relative;
 }
