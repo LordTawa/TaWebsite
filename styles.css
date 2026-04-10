@@ -33,7 +33,7 @@ html, body {
 }
 
 .nav {
-  background-color: #600505;
+  background: url("Images/TaWebsiteNav.png");
   width: 80%;
   z-index: 500;
   height: 16%;
