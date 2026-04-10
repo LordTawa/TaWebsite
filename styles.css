@@ -5,7 +5,7 @@
 }
 
 body {
-  background: url('Background.jpg');
+  background: url('Images/Background.jpg');
   background-size: cover; 
   background-position: fixed;
   overflow-x: hidden;
@@ -20,7 +20,7 @@ html, body {
 }
 
 .main {
-  background-color: #600505;
+  background: url('Images/Background2.jpg');
   width: 80%;
   height: 100%;
   background-repeat: no-repeat;
